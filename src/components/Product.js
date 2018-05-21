@@ -31,6 +31,7 @@ export default class Product extends Component {
         <Text style = { style.textStyle }>Quantity: { this.state.qty }</Text>
         <Button title="Buy" onPress = { this.buy } />
       </View>
+
     );
   }
 }
